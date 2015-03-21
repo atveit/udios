@@ -1,0 +1,283 @@
+commit a061478c27214f18fbb7153b67761848a7f413ac
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 19:03:56 2015 +0100
+
+    fixed the label issue in storyboard
+
+commit 2c3177b12fc9362ff124b76e52a402c70fd2337f
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:59:01 2015 +0100
+
+    did reindending of code.
+
+commit acb899d4e5da3156b0c63e9b474366073035767c
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:54:40 2015 +0100
+
+    added use of init method
+
+commit 2a93273305ac38a68e79b7843864c09cef4ca278
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:52:09 2015 +0100
+
+    added initalizer
+
+commit 3aeeff4369a869c78f3657e0001774e0f29f36ef
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:40:44 2015 +0100
+
+    increasing volume to max
+
+commit b0f5ebea2775b3888f2f9ff5c750990804d3ec32
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:33:29 2015 +0100
+
+    darth vader effect works
+
+commit 7dc66d102392123c65c50166eddb0f0a48b803c6
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:31:57 2015 +0100
+
+    alignment for darth works
+
+commit c2bc3189016a54517ef2ba8295b5f4ffdb60f441
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:28:11 2015 +0100
+
+    pitch change works for chipmunk voice
+
+commit 811cfd1d53cea877e2c56ae9ed076754f28389ac
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:09:33 2015 +0100
+
+    added playChipMunkAudio function
+
+commit c80382dc66344a8fec544045f01fcf95d4c10e03
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:08:42 2015 +0100
+
+    added chipmunk button
+
+commit bab4b7660498984ce787d28cfcad6278146d390d
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 18:03:27 2015 +0100
+
+    works end to end with recording of sound
+
+commit f1969102650d9ee979e52112aa91348ac9c2023c
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:58:32 2015 +0100
+
+    performSegueWithIdentifier works
+
+commit 9214172ea21755948d5178904a5d8913c239f9b7
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:52:17 2015 +0100
+
+    added RecordedAudio class
+
+commit 6b33109de06e665a4767b9e93c627514aaf5df30
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:51:10 2015 +0100
+
+    added delegate for audiorecorder
+
+commit 3ddd1331f4b0bdb8753d43696695aa27ea273b65
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:44:33 2015 +0100
+
+    replaced the stop button segue with a new one from the top of the view controller.
+
+commit 11bfb61f0b41739f0fd6d280c1b442da013978fa
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:41:06 2015 +0100
+
+    added stop button functionality for recording
+
+commit 9b87612cd5be114d8a849d98ba0af375f0d57f7a
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:39:10 2015 +0100
+
+    added recording of audio
+
+commit 54837ea607a776f809b9df7b8335785e8c158b36
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sat Mar 21 17:37:34 2015 +0100
+
+    renamed classname from ViewController to RecordSoundsViewController
+
+commit 5fd14e46252505ef7472f3e681dcd2b82c74e196
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 15:13:36 2015 +0100
+
+    refactored out play method
+
+commit 51ec809b450bcda348102f505afc8b465aab847f
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 15:07:27 2015 +0100
+
+    added fast and stop button with actions
+
+commit 696c94d2bbb17f007cbedd457fe62d932426947f
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 14:56:07 2015 +0100
+
+    able to play sounds, note that copying it to project FIRSt, and then dragging it to supporting files, and remember to copy file.
+    in case of trouble - reset simulator.
+
+commit 940f8fd0644732562e4a6804d563f399b26e6bde
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 13:45:26 2015 +0100
+
+    added play slowly button, added constraints and added IBAction when clicking it
+
+commit 5dd28a0dc72a1fa5067a1afa8eddbe3b04bfe37b
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 13:39:20 2015 +0100
+
+    Added button to new View, added a new Cocoa Touch class (inh: UiViewController) and assigned the new View to it.
+    (note that: Automatic above source code in Xcode is about which ViewController source file to show when you click on Views in the StoryBoard, can turn this off)
+
+commit 2bac33442d403be2e39879a740f47592ad63e30b
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 09:53:42 2015 +0100
+
+    added title to record screen, which shows in the back button text in the next one.
+
+commit aa2e946d3edf4b8d2a230d37282539d718b4293a
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 09:51:37 2015 +0100
+
+    added UIViewController in Storyboard (using right side), then adding ctrl-drag from stop button to the new View Controller and selected show
+
+commit faa1cb6e22c7b7e953077571688844644187d441
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 20 09:39:38 2015 +0100
+
+    editor - embed in navigation controller
+
+commit 43fa5537abac92055516bbf4b06a514b8de54176
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 14:51:44 2015 +0100
+
+    default enabled record button when starting view.
+
+commit 6b86ec3e19a3e3f587b8891999ad9632a9f70d60
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 14:51:05 2015 +0100
+
+    disabling record button when recording.
+
+commit 0d8b788b623c60ef4e7d5d727026391482588a16
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 14:35:21 2015 +0100
+
+    moved hiding of button to viewWillAppear
+
+commit 76eed5a46e0b1ee8ec482796f488dad0455d6b3c
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 14:30:39 2015 +0100
+
+    added stop button IBOutlet and behavior wrt hidden and not hidden (same as for recordingLabel)
+
+commit 418dd2df098d0dc70d7b2fad7a1d7c96912e99ef
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 14:24:54 2015 +0100
+
+    added UIKit Resources
+
+commit cb861a3b32249b917a241f82e726b36446dfdd10
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 11:39:02 2015 +0100
+
+    added stop button with constraints
+
+commit 4540396fbc563a894ea1df9a14c8d6cd5b23f94e
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 11:28:42 2015 +0100
+
+    added stop button in xcassets.
+
+commit c781b99a13785628907e893b212ed544e733f8b8
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 11:17:50 2015 +0100
+
+    using shift after dragging between label and mic in order to set both a) vertical spacing and center x, this is better than previous approach
+
+commit aadaa5c9890b8929d016e25e2ed99eb42793c57e
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 10:54:24 2015 +0100
+
+    made recording text hidden as default in the attributes inspector
+
+commit 0c8077f8c66489ef940a8b244b80b2223c135379
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Sun Mar 15 10:41:26 2015 +0100
+
+    added IBAction for recordAudio click
+
+commit 908241d6b4273699f2b1a0f49926057586a492f5
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 16:05:52 2015 +0100
+
+    added notes about using vector images - pdf - in xcode instead of creating various resolution images
+
+commit 701a528e2b85c8b88a67fe19039b74da8b6d2faf
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 16:01:17 2015 +0100
+
+    adding 2x image of microphone to cassettes.
+
+commit a959d1dad48df758c78f6636184e91762d7ab10a
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 15:55:05 2015 +0100
+
+    added image to storyboard.
+
+commit 920d63e14629c7b852f1a9717986c396fd695e43
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 15:53:41 2015 +0100
+
+    added microphone image to Images.xcassets
+
+commit c0b1b0dc5c0b07a9e76b74260ef7164710fdf0c6
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 15:47:03 2015 +0100
+
+    learned alignment using both ctrl and drag, and also by clicking alignment in lower right corner after clicking the lower left corner to get objects
+
+commit 4d10926e5680f73f5617a97ac881ddcd267d2f67
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 15:44:34 2015 +0100
+
+    use ctrl and drag to place things, also clicking the left lower button on the storyboard to see objects in storyboard
+
+commit f960390ab74292800bc88485b8b3a5bef2190615
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 15:31:41 2015 +0100
+
+    initial commit after lesson 1.
+
+commit 41caea89e81b13d59306de57c5028619f210fb78
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 14:54:05 2015 +0100
+
+    ignoring tilde files
+
+commit e0c3b82b6b78fdd4fd4aa093d5b6c3249792d1d7
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 14:53:04 2015 +0100
+
+    copy of doc
+
+commit 6afaf3f739367ecd170dd5ac12ef0c0a44a3e622
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 14:52:37 2015 +0100
+
+    added some fastlane stuff
+
+commit c1c9b576de33d27fb0d8ae825d80c90a3b4459c6
+Author: Amund Tveit <atveit@gmail.com>
+Date:   Fri Mar 13 14:49:02 2015 +0100
+
+    Initial commit
