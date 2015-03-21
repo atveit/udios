@@ -22,7 +22,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var recordButton: UIButton!
     
-    var audioRecorder:AVAudioRecorder!
+    var audioRecorder: AVAudioRecorder!
     
     var recordedAudio: RecordedAudio!
     
@@ -35,6 +35,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         // hide/show stuff here
         stopButton.hidden = true
         recordButton.enabled = true
+        
+        recordingLabel.text = "Tap to Record"
     }
     
     // TODO: better place
@@ -72,7 +74,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
         if(flag) {
             // 1. save recorded audio
-            recordedAudio = RecordedAudio(fromFilePathURL: recorder.url, fromTitle: recorder.url.lastPathComponent!)
+            recordedAudio = RecordedAudio(filePathUrl: recorder.url, fromTitle: recorder.url.lastPathComponent!)
             
             // 2. perform a segue - move to play sound view
             self.performSegueWithIdentifier("stopRecording", sender: recordedAudio)
@@ -94,7 +96,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBAction func stopRecording(sender: UIButton) {
             stopButton.hidden = true
             recordButton.enabled = true
-            recordingLabel.text = "Tap to Record"
 
             audioRecorder.stop()
             var audioSession = AVAudioSession.sharedInstance()

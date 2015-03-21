@@ -12,7 +12,7 @@ class RecordedAudio: NSObject {
     var filePathUrl: NSURL!
     var title: String!
     
-    init(fromFilePathURL filePathUrl:NSURL, fromTitle title:String) {
+    init(filePathUrl:NSURL, fromTitle title:String) {
         self.title = title
         self.filePathUrl = filePathUrl
     }
